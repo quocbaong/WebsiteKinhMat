@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EYGLSSE | Home</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- link to asset -->
+    <link rel="stylesheet" href="./asset/CSS/style.css">
+    <script src="./asset/JS/jquery-3.7.1.min.js"></script>
+    <script src="./asset/JS/effect.js"></script>
+    <script src="./asset/JS/main.js"></script>
+    <script src="./asset/JS/bootstrap.min.js"></script>
+
+    <!-- Logo + Icon -->
+    <link rel="icon" href="./asset/imgs/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <!-- Navbar -->
+        <nav id="navbar" onscroll="navShrink()">
+            <!-- Logo -->
+            <div id="navbar__logo">
+                <a href="./trangchu.html"><img src="./asset/imgs/favicon.png" alt="" srcset=""></a>
+            </div>
+            <!-- Nav List -->
+            <ul id="navbar__nav-list">
+                <li><a href="./trangchu.html">Trang Chủ</a></li>
+                <li><a href="./html/uudai.html">Ưu Đãi</a></li>
+                <li><a href="./html/collection.html">Collection</a></li>
+                <li><a href="./html/baiviet.html">Tin Tức</a></li>
+                <li><a href="./html/lienhe.html">Liên Hệ</a></li>
+                <li><a href="./html/gioithieu.html">Giới Thiệu</a></li>
+                <li><a href="./html/sitemap.html">Site Map</a></li>
+            </ul>
+
+            <div id="navbar__tools">
+                <!-- Search Bar -->
+                <div class="navbar__tools__element m8" >
+                    <div class="search" >
+                        <span class="icon">
+                            <i class='bx bx-x-circle closeBtn' style="margin-right: 10px; font-size: 24px;"></i>
+                            <i class="fa fa-search searchBtn" id="search-btn" aria-hidden="true" style="color: #333; cursor: pointer;"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <nav class="navbar__tools__element m8">
+                    <a href="./html/giohang.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </nav>
+                <div class="navbar__tools__element">
+                    <a href="./html/login_signup.html"><i class='bx bx-user-circle'aria-hidden="true" style="font-size: 34px; margin: 4px 20px 0 5px;"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Search -->
+        <div class="searchBox">
+            <input type="text" name="" id="" placeholder="Search here...">
+        </div>
+    </header>
+    <!-- MAIN SECTION -->
+    <main id="top">
+        <!-- Poster + Intro -->
+        <div id="poster">
+            <a href="./html/collection.html">
+                <button class="btn poster-btn">Xem Tất Cả <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </a>
+        </div>
+
+        <!-- MAIN Content -->
+        <article id="content" class="one-col">
+            <!-- Sale Section -->
+            <section id="sale">
+                <div class="content__title">
+                    <h1>SALE UP TO 75%</h1>
+                    <hr width="80%">
+                </div>
+
+                <center>
+                    <p style="color: #a3a3a3;"><i>Kết thúc vào: 20 / 06 / 2024</i></p>
+                </center>
+
+                <article class="sale-products two-cols">
+                    <aside class="left-side two-cols">
+                        <!-- 1 -->
+                        <a href="./html/sanpham/the-rv.html" class="sale-products__container">
+                            <img src="./asset/imgs/trangchu/LV_Clash.png" alt="">
+                            <label>-75%</label>
+    
+                            <h3 class="product-name">Mắt Kính LV Clash - Cỡ Lớn</h3>
+                            <p class="price">1.590.000VNĐ <del> 4.500.000 VNĐ</del></p>
+    
+                            <div class="container__progress-bar">
+                                <progress value="24" max="50"></progress>
+                                <p>Đã bán: 56</p>
+                            </div>
+                        </a>
+    
+                        <!-- 2 -->
+                        <a href="./html/sanpham/l&r.html" class="sale-products__container">
+                            <img src="./asset/imgs/trangchu/DIOR_MISSDIORB2U.webp" alt="">
+                            <label>-65%</label>
+
+                            <h3 class="product-name">DIOR MISSDIORB2U E0B2</h3>
+                            <p class="price">1.290.000 VNĐ <del>3.300.000 VNĐ</del></p>
+    
+                            <div class="container__progress-bar">
+                                <progress value="16" max="50"></progress>
+                                <p>Đã bán: 16</p>
+                            </div>
+                        </a>
+                    </aside>
+
+                    <!-- 3 -->
+                    <aside class="right-side two-cols">
+                        <a href="./html/sanpham/swe-win.html" class="sale-products__container">
+                            <img src="./asset/imgs/trangchu/gucci_glass.jpg" alt="">
+                            <label>-50%</label>
+
+                            <h3 class="product-name">SQUARE METAL AND ACETATE GLASSES</h3>
+                            <p class="price">2.490.000 VNĐ <del>5.000.000 VNĐ</del></p>
+    
+                            <div class="container__progress-bar">
+                                <progress value="36" max="50"></progress>
+                                <p>Đã bán: 36</p>
+                            </div>
+                        </a>
+    
+                        <!-- 4 -->
+                        <a href="./html/sanpham/swe-sand.html" class="sale-products__container sale-products__container--so">
+                            <img src="./asset/imgs/trangchu/prada_glass.jpg" alt="">
+                            <label>-42%</label>
+
+                            <h3 class="product-name">Prada Linea Rossa Impavid sunglasses</h3>
+                            <p class="price">1.990.000 VNĐ <del>3.000.000 VNĐ</del></p>
+    
+                            <div class="container__progress-bar">
+                                <progress value="50" max="50"></progress>
+                                <p>Đã bán: 50</p>
+                            </div>
+                        </a>
+                </article>
+
+                <a href="./html/uudai.html">
+                    <button class="btn sale-btn">Xem Tất Cả <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </a>
+            </section>
+    
+            <!-- New Arrivals Section -->
+            <section id="new">
+                    <div class="content__title">
+                        <h1>NEW ARRIVALS</h1>
+                        <hr width="80%">
+                    </div>
+
+                    <aside class="one-col new__intro">
+                        <video src="./asset/imgs/trangchu/glasses-LV.mp4" controls autoplay loop></video>
+                        <h2>Gucci Sunglasses</h2>
+                        <p>
+                            <a href="https://vn.louisvuitton.com/vie-vn/women/accessories/sunglasses/_/N-t1peha6j" target="_blank">Gucci Sunglasses</a>  là những kính mắt cao cấp kết hợp giữa phong cách hiện đại và sang trọng của thương hiệu. Với các kiểu dáng và màu sắc đa dạng, chúng là biểu tượng của sự phong cách và đẳng cấp.
+                            <br>
+                            <br>
+                            Đây hứa hẹn sẽ là một Bộ Sưu Tập mắt kính đầy nổi bật, làm cho thị trường trở nên sôi động hơn.
+                        </p>
+                    </aside>
+
+                    <aside class="three-cols new__list">
+                        <!-- 1 -->
+                        <aside class="article-cell new__list__element new__list__element--1">
+                            <img src="./asset/imgs/trangchu/gucci__1.avif" alt="" height="400px">
+                            <h3>RECTANGULAR SUNGLASSES</h3>
+                            <a href="./html/collection.html"><b>Xem Chi Tiết</b></a>
+                        </aside>
+
+                        <!-- 2 -->
+                        <aside class="article-cell new__list__element new__list__element--2">
+                            <img src="./asset/imgs/trangchu/gucci__2.avif" alt="" height="400px">
+                            <h3>SQUARE METAL AND ACETATE SUNGLASSES</h3>
+                            <a href="./html/collection.html"><b>Xem Chi Tiết</b></a>
+                        </aside>
+
+                        <!-- 3 -->
+                        <aside class="article-cell new__list__element new__list__element--3">
+                            <img src="./asset/imgs/trangchu/gucci__3.avif" alt="" height="400px">
+                            <h3>RECTANGULAR FRAME SUNGLASSES</h3>
+                            <a href="./html/collection.html"><b>Xem Chi Tiết</b></a>
+                        </aside>
+                    </aside>
+
+            </section>
+
+            <!-- Hot News Section -->
+            <section id="news">
+                <div class="content__title">
+                    <h1>TIN NỔI BẬT</h1>
+                    <hr width="80%">
+                </div>
+
+                <aside class="two-cols-left news__container">
+                    <aside class="article-cell news__no1">
+                        <img src="./asset/imgs/trangchu/rose_glass.jpeg" alt="" width="100%" style="border-radius: 16px;">
+
+                        <a href="https://www.tiktok.com/@soo_soobaby/video/7265316644400975105?is_from_webapp=1&sender_device=pc&web_id=7149572103615661569">
+                            <h2>Rosé BlackPink trở thành người đại diện YSL<img src="./asset/imgs/trangchu/island.png" alt="" height="32px"></h2>
+                        </a>
+
+                        <p>Rosé BlackPink trờ thành người đại diện cho thương hiệu nổi tiếng YSL <a href="./html/baiviet.html"><b>Xem Thêm</b></a></p>
+                    </aside>
+
+                    <aside class="right-side news__more">
+                        <div class="news__more__element">
+                            <img src="./asset/imgs/trangchu/Paris Fashion Week.jpg" alt="" height="380px">
+                            
+                            <a href="./html/baiviet.html"><h3>Tuần lễ thời trang Paris Fashion Week</h3></a>
+                        </div>
+
+                        <div class="news__more__element">
+                            <img src="./asset/imgs/trangchu/new--3.jpg" alt="" height="370px">
+
+                            <a href="./html/baiviet.html"><h3>DIOR MANG BA LÔ TRỞ LẠI VỚI LỚP ÁO JACQUARD HUYỀN THOẠI</h3></a>
+                        </div>
+                    </aside>
+                </aside>
+            </section>
+        </article>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="two-cols-left">
+        <!-- Company Info -->
+        <div id="company-info" class="article-cell">
+            <h2 class="footer__title">EYGLSSE STORE</h2>
+            <p class="footer__text">
+                EYGLSSE được thành lập vào năm 2024, bởi thành viên: Nguyễn Quốc Bảo. 
+                Đây là cửa hàng mắt kính đầu tiên tại Việt Nam nhận sỉ và lẻ các loại mắt kính trên thế giới với giá ngàn đô.
+                Chúng tôi cam kết mang lại cho khách hàng trải nghiệm tuyệt vời và khó quên nhất mà họ từng có và các ưu đãi hấp dẫn cho những dịp đặc biệt.
+            </p>
+        </div>
+
+        <aside class="right-side two-cols" style="display: grid;">
+            <!-- Social -->
+            <aside class="left-side">
+                <nav id="social">
+                    <h2 class="footer__title">Mạng Xã Hội</h2>
+                    
+                    <ul class="footer__text">
+                        <li><a href="https://www.facebook.com/profile.php?id=61558004683665"><img src="./asset/imgs/header + footer/facebook.png" alt="" height="24px">EYGLSSE</a></li>
+                        <li><a href="#"><img src="./asset/imgs/header + footer/gmail.png" alt="" height="24px"> eyglsse@gmail.com</a></li>
+                        <li><a href="https://twitter.com/"><img src="./asset/imgs/header + footer/twitter.png" alt="" height="24px"> @eyglsse.store</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Địa Chỉ -->
+            <aside class="right-side">
+                <div id="address">
+                    <h2 class="footer__title">Địa Chỉ Liên Hệ</h2>
+                    <ul class="footer__text">
+                        <li><i class="fa fa-home" aria-hidden="true"></i> Nguyễn Thái Sơn, Phường 4, Quận Gò Vấp, TP. Hồ Chí Minh</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> (+84) 7794566xx</li>
+                        <li><a href="./html/lienhe.html"><b>Xem thêm</b></a></li>
+                    </ul>
+                </div>
+            </aside>
+        </aside>
+    </footer>
+
+    <!-- Special Gift Tab -->
+    <section id="special-gift">
+        <img src="./asset/imgs/trangchu/vocher.png" alt="" height="120px" width="30%">
+
+        <div class="gift__content">
+            <h3>Quà tặng nạp đầu!!!</h3>
+            <p>Trong lần đầu mua hàng, EYGLSSE xin gửi đến bạn Voucher giảm giá 10%.</p>
+        </div>
+
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </section>
+    
+    <!-- To Top Button -->
+    <button id="to-top"><a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></button>
+
+    <script>
+        let searchBtn = document.querySelector('.searchBtn');
+        let closeBtn = document.querySelector('.closeBtn');
+        let searchBox = document.querySelector('.searchBox');
+
+        searchBtn.onclick = function() {
+            searchBox.classList.add('active');
+            closeBtn.classList.add('active');
+            searchBtn.classList.add('active');
+        }
+        closeBtn.onclick = function() {
+            searchBox.classList.remove('active');
+            closeBtn.classList.remove('active');
+            searchBtn.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
