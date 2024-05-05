@@ -116,51 +116,51 @@ function removeCart(code)
         "sp001":{
             "name":"LV Waimea L Sunglasses",
             "price":1290000,
-            "photo":"/asset/imgs/uudai/product5.png"},
+            "photo":"../asset/imgs/uudai/product5.png"},
         "sp002":{
             "name":"LV Jewel Square Sunglasses",
             "price":2249000,
-            "photo":"/asset/imgs/uudai/product6.jpg"},
+            "photo":"../asset/imgs/uudai/product6.jpg"},
         "sp003":{
             "name":"Gucci Eyewear",
             "price":1990000,
-            "photo":"/asset/imgs/uudai/product7.png"},
+            "photo":"../asset/imgs/uudai/product7.png"},
         "sp004":{
             "name":"Mắt Kính LV Clash - Cỡ Lớn",
             "price":1590000,
-            "photo":"/asset/imgs/trangchu/LV_Clash.png"},
+            "photo":"../asset/imgs/trangchu/LV_Clash.png"},
         "sp005":{
             "name":"DIOR MISSDIORB2U E0B2",
             "price":1290000,
-            "photo":"/asset/imgs/trangchu/DIOR_MISSDIORB2U.webp"},
+            "photo":"../asset/imgs/trangchu/DIOR_MISSDIORB2U.webp"},
         "sp006":{
             "name":"SQUARE METAL AND ACETATE GLASSES",
             "price":2490000,
-            "photo":"/asset/imgs/trangchu/gucci_glass.jpg"},
+            "photo":"../asset/imgs/trangchu/gucci_glass.jpg"},
         "sp007":{
             "name":"Prada Linea Rossa Impavid Sunglasses",
             "price":1990000,
-            "photo":"/asset/imgs/trangchu/prada_glass.jpg"},
+            "photo":"../asset/imgs/trangchu/prada_glass.jpg"},
         "sp008":{
             "name":"Gucci Eyewear Men's Gg1221s",
             "price":2990000,
-            "photo":"/asset/imgs/uudai/product8.jpg"},
+            "photo":"../asset/imgs/uudai/product8.jpg"},
         "sp009":{
             "name":"DIOR MEN'S ROUNDED RIMLESS SUNGLASSES",
             "price":3900000,
-            "photo":"/asset/imgs/uudai/product9.jpg"},
+            "photo":"../asset/imgs/uudai/product9.jpg"},
         "sp010":{
             "name":"DIOR DIORESSENCE19 - havana yellow",
             "price":5500000,
-            "photo":"/asset/imgs/uudai/product10.jpg"},
+            "photo":"../asset/imgs/uudai/product10.jpg"},
         "sp011":{
             "name":"Óculos de Sol Prada Black PR09ZS 1AB5S0-54",
             "price":3590000,
-            "photo":"/asset/imgs/uudai/product11.jpg"},
+            "photo":"../asset/imgs/uudai/product11.jpg"},
         "sp012":{
             "name":"Prada PR 18WS Men's Rectangular Sunglasses",
             "price":2990000,
-            "photo":"/asset/imgs/uudai/product12.jpg"},
+            "photo":"../asset/imgs/uudai/product12.jpg"},
     };
     function copied(){
         alert("Voucher đã được sao chép");
